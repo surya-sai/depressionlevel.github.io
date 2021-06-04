@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/ab.css">
+    <title>Feelings Book</title>
+</head>
+<body>
+    <header>
+        <h1>Feelings Book</h1>
+    </header>
+    <main>
+        <section id="contact-display">
+            <h2 class="contacts">Record</h2>
+            <table>
+                <tr id="head">
+                    <thead>
+                        <th>Date</th>
+                        <th>Feeling</th>
+                        <th>Rate</th>
+                        <th>Reason</th>
+                        <th>Whom do you blame</th>
+                    </thead>
+                </tr>
+                <tbody id="data">
+                    
+                </tbody>
+            </table>
+        </section>
+        <section id="new-contact">
+            <h2>Create your personal feelings blog</h2>
+            <form>
+                <div>
+                    <label for="name">Date:</label>
+                    <input id="name" type="text"  maxlength="15" required>
+                </div>
+                <div>
+                    <label for="add">How are you feeling:</label>
+                    <input id="add" type="text" maxlength="30" required>
+                </div>
+                <div>
+                    <label for="tel">Rate your feeling:</label>
+                    <input id="tel" type="tel" maxlength="15" required>
+                </div>
+                <div>
+                    <label for="email">State the reason:</label>
+                    <input id="email" type="text" maxlength="30" required>
+                </div>
+                <div>
+                    <label for="url">Whom do you blame:</label>
+                    <input id="url" type="text" maxlength="20">
+                </div>
+                <div>
+                    <button>Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Developed by {'surya and team'}}</p>
+    </footer>
+    <script src="./scripts/ab.js"></script>
+</body>
+</html>
